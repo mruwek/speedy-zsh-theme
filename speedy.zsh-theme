@@ -9,7 +9,7 @@ local uid_color="%F{blue}"
 local return_code="%(?..%F{red}✘%f)"
 
 RPS1="\$(vi_mode_prompt_info) ${return_code} %F{75}%T%f"
-PROMPT="%m %B%(1j.%F{75}︎︎⚙.%F{75}:) %b%F{113}%3~ \$(git_prompt_info)%B${uid_color}%#%f%b "
+PROMPT="%m %B%(1j.%F{75}⚙.%F{75}:) %b%F{113}%3~ \$(git_prompt_info)%B${uid_color}%#%f%b "
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%B%F{117}‹"
 ZSH_THEME_GIT_PROMPT_SUFFIX="›%b%f "
